@@ -11,6 +11,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
 
+<!-- Top menu
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1300px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Food</div>
+  </div>
+</div> -->
+
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -34,6 +43,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(301) 222-3732</p>
           <hr>
 
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Education</b></p>
+          <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Maryland College Park</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2019 - <span class="w3-tag w3-teal w3-round">current</span></h6>
+          <p>Master's in Robotics</p>
+          <p>GPA 3.7/4</p>
+          <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>University of Mumbai</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 - May 2018</h6>
+            <p>Bachelor's in Electronics Engineering</p>
+            <p>GPA 7.95/10</p>
+            <hr>
+          </div>
+
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Programming/Tools/OS</b></p>
           <p>C++, Python, OpenCV, TensorFlow, AWS (EC2), REST API, Flask, Linux, ROS, GIT, LaTex</p>
         
@@ -44,10 +69,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>​Robot Modeling, Perception and Planning for Autonomous Robots, Software Development for
 			Manufacturing Robots, Autonmous System Engineering, ML, Decision Making for Robots</p>
       
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Hobbies</b></p>
+          <!-- <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Hobbies</b></p>
           <p>Traveling</p>
          
-          <p>Cooking</p>
+          <p>Cooking</p> -->
          
           <br>
         </div>
@@ -59,35 +84,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <!-- Right Column -->
     <div class="w3-twothird">
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right">Software Development on ROS for ARIAC</i></h6>
-          <p>Developed a software package in ROS to automate jobs in Agile Robotics for Industrial Automation Competition
-			(ARIAC) environment using UR10 and various sensors in Gazebo environment.</p>
-          <hr>
-        </div>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Advanced Lane Detection for Self-Driving Vehicles</b></h5>
-          <p>- Worked on implementing lane detection techniques for self-driving cars using geometric-vision.</p>
-          <p>- Addressed the problem of night vision by enhancing the details of an image frame captured in low light.</p>
-          <hr>
-        </div>
-        
-        <div class="w3-container">
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - August 2019</h6>
-          <p>- Designed a 8-puzzle problem solver using Brute force approach.</p>
-		  <p>- Implemented Dijkstra’s Algorithm and A* Algorithm to find the shortest path between start and end point on a
-			given map for a point robot.</p> 
-		  <p>- Implemented a research paper based on RRT algorithm, path pruning and path smoothing for UAV’s.</p><br>
-        </div>
-      </div>
-
-
-    
+      <!-- Start of Experience Block -->
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
 
@@ -95,7 +92,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity"><b>Software Developer / College of Information Studies, UMD</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">current</span></h6>
           <p>Working on a project funded by the (NSF) which involved the development of a REST API using OpenAPI Specs for
-			creating a database for Learning Analytics (Playable Case Studies) on the AWS (EC2) instance.</p>
+      creating a database for Learning Analytics (Playable Case Studies) on the AWS (EC2) instance.</p>
           <hr>
         </div>
 
@@ -110,36 +107,115 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity"><b>Co-Founder / GreyRobotics</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - August 2019</h6>
           <p>- Worked on product development and manufacturing, electro-mechanical system designing, power system
-			designing, firmware development, project handling and product datasheet drafting.</p>
-		  <p>- Prototyped and developed 4 products - GreyBot, Line Follower Sensors and Arduino Nano Dev Board.</p> 
-		  <p>- Developed a system for detection of various gas concentrations, transmitted the processed data over the
-			internet using ESP8266 and displayed the graphical results on Cayenne Online Dashboard.</p><br>
+      designing, firmware development, project handling and product datasheet drafting.</p>
+      <p>- Prototyped and developed 4 products - GreyBot, Line Follower Sensors and Arduino Nano Dev Board.</p> 
+      <p>- Developed a system for detection of various gas concentrations, transmitted the processed data over the
+      internet using ESP8266 and displayed the graphical results on Cayenne Online Dashboard.</p><br>
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>University of Maryland College Park</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2019 - <span class="w3-tag w3-teal w3-round">current</span></h6>
-          <p>Master's in Robotics</p>
-          <p>GPA 3.7/4</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>University of Mumbai</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 - May 2018</h6>
-          <p>Bachelor's in Electronics Engineering</p>
-          <p>GPA 7.95/10</p>
-          <hr>
-        </div>
-        <!-- <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div> -->
-      </div>
+      <!-- End of Experience Block -->
 
+      <!-- Start of Projects Block -->
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="projects">
+          <div class="w3-quarter">
+            <img src="./gifs/lane_detection.gif" alt="lane detection" style="width:100%;max-width:500px">
+            <h5 class="w3-opacity"><b>Lane Detection for Self-Driving Vehicles</b></h5>
+            <p>Geometric Vision | Night Vision </p>
+          </div>
+          <div class="w3-quarter">
+            <img src="./gifs/path_planning.gif" alt="path planning" style="width:100%">
+            <h5 class="w3-opacity"><b>Path Planning for Autonomous Robots</b></h5>
+            <!-- <h3>Path Planning for Autonomous Robots</h3> -->
+            <p>Brute Force | Dijkstra's Algorithm | A* Algorithm </p>
+          </div>
+          
+          <div class="w3-quarter">
+            <img src="/w3images/wine.jpg" alt="electric cycle" style="width:100%">
+            <h5 class="w3-opacity"><b>Dual-Mode Solar Powered Electric Bicycle</b></h5>
+            <p>Electric Bicycle | Solar Charging | Auto cut-off | Efficient Sprocket Mechanism</p>
+          </div>
+
+          <div class="w3-quarter">
+              <img src="/w3images/cherries.jpg" alt="v cart" style="width:100%">
+              <h5 class="w3-opacity"><b>Autonomous Electric Vehicle using Sensor Skirt Approach</b></h5>
+              <p>Differential Drive System | Sensor Integration | GPS </p>
+          </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="projects">
+          <div class="w3-quarter">
+            <img src="./gifs/kit_building.gif" alt="ariac" style="width:100%">
+            <h5 class="w3-opacity"><b>Software Development on ROS for ARIAC</b></h5>
+            <p>Gazebo | UR10 Manipulator | Agile Robotics | Industrial Automation </p>
+          </div>
+          <div class="w3-quarter">
+            <img src="./gifs/path_planning.gif" alt="swarm robot" style="width:100%">
+            <h5 class="w3-opacity"><b>Swarm Robotics based Solar System</b></h5>
+            <p>SWARM Robots | Multi-agent Network | NRF Network | Electro-mechanical Designing</p>
+          </div>
+          
+          <div class="w3-quarter">
+            <img src="./gifs/UAV_2.gif" alt="UAV path planning" style="width:100%">
+            <h5 class="w3-opacity"><b>UAV Path Planning</b></h5>
+            <p>RRT Algorithm | Path Prunning | Path Smoothing</p>
+          </div>
+
+          <div class="w3-quarter">
+              <img src="/w3images/cherries.jpg" alt="v cart" style="width:100%">
+              <h5 class="w3-opacity"><b>Autonomous Electric Vehicle using Sensor Skirt Approach</b></h5>
+              <p>Differential Drive System | Sensor Integration | GPS </p>
+          </div>
+        </div><!-- 
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Development on ROS for ARIAC</b></h5>
+          <p>Developed a software package in ROS to automate jobs in Agile Robotics for Industrial Automation Competition
+          (ARIAC) environment using UR10 and various sensors in Gazebo environment.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Advanced Lane Detection for Self-Driving Vehicles</b></h5>
+          <p>- Worked on implementing lane detection techniques for self-driving cars using geometric-vision.</p>
+          <p>- Addressed the problem of night vision by enhancing the details of an image frame captured in low light.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Path Planning for Autonomous Robots</b></h5>
+          <p>- Designed a 8-puzzle problem solver using Brute force approach.</p>
+          <p>- Implemented Dijkstra’s Algorithm and A* Algorithm to find the shortest path between start and end point on a given map for a point robot.</p>
+          <p>- Implemented a research paper based on RRT algorithm, path pruning and path smoothing for UAV’s.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Swarm Robotics based Solar System</b></h5>
+          <p>- Designed and developed a replica of the planetary solar system which could communicate with a remote system using NRF transmission and receive commands for revolution and rotation of the planet.</p>
+          <p>- Worked on the firmware development for communication and locomotion of robots, assisted in the mechanical system designing and designed the PCB for integrating various electro-mechanical modules.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Dual-Mode Solar Powered Electric Bicycle</b></h5>
+          <p>- Headed a group of 4 undergraduate students to design a dual-mode electric bike which exhibited smart features such as speedometer display system, solar panels for charging, smart auto power cut-off system, dual sprocket mechanism and motor placement design increasing the speed efficiency by 45%.</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Autonomous Electric Vehicle using Sensor Skirt Approach</b></h5>
+          <p>- Assisted a final year group project in designing the sensor network system for auto navigation of the electric vehicle using various proximity sensors and its integration with the microcontroller system.</p>
+          <p>- Addressed the problem of night vision by enhancing the details of an image frame captured in low light.</p>
+          <hr>
+        </div>
+        
+ -->
     <!-- End Right Column -->
     </div>
     
@@ -149,7 +225,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
+<footer class="w3-container w3-black w3-center w3-margin-top">
   <p>Find me on social media.</p>
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
