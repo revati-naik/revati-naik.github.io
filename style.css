@@ -1,0 +1,55 @@
+/* Custom Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling between sections */
+}
+
+/* .hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+} */
+
+.hero-section {
+    height: 100vh;
+    /* We replaced the long URL with your local filename */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('Images/cute-robot-character-with-smile-face-3d-vector-set/cute-robot-character-with-smile-face-3d-vector-set.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This adds a nice parallax scroll effect */
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+}
+
+.card {
+    transition: transform 0.3s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
