@@ -71,3 +71,23 @@ h2 {
     color: #333;
     margin-bottom: 5px;
 }
+
+.blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px); /* Lifts the card up */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.blog-card .card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensures the image fills the area without stretching */
+}
+
+.blog-card a {
+    color: #007bff; /* Or your preferred brand color */
+}
