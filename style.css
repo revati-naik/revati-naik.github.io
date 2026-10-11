@@ -63,7 +63,7 @@ h2 {
     transition: transform 0.3s;
     border: none;
 }
- whats
+
 .card:hover {
     transform: translateY(-5px);
 }
